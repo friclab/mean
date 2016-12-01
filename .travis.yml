@@ -7,4 +7,4 @@ node_js:
 deploy:
   provider: script
   api_key:
-   secure: $HEROKU_API_KEY
+   secure: "$HEROKU_API_KEY"
