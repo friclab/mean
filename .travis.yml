@@ -6,4 +6,5 @@ node_js:
   - "iojs"
 deploy:
   provider: script
-  script: sbt stage deployHeroku
+  api_key:
+   secure: $HEROKU_API_KEY
