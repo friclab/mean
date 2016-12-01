@@ -3,5 +3,4 @@ node_js:
   - "6.1"
 deploy:
   provider: script
-  api_key:
-   secure: "$HEROKU_API_KEY"
+  api_key: "$HEROKU_API_KEY"
